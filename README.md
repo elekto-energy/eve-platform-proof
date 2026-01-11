@@ -26,7 +26,18 @@
 
 ## What is EVE?
 
-EVE is a **self-coding AI platform** that generates production-ready code from natural language descriptions. Unlike ChatGPT or Copilot, EVE doesn't just suggest code — it **builds, tests, and validates complete systems**.
+EVE is a **multi-domain self-coding AI platform** that generates production-ready systems from natural language descriptions. Unlike ChatGPT or Copilot, EVE doesn't just suggest code — it **builds, tests, and validates complete systems**.
+
+### Verified Domains
+
+| Domain | Capabilities |
+|--------|--------------|
+| 🔋 **Energy** | Microgrid control, battery management, solar optimization, EV charging |
+| 🎬 **Video** | Deterministic text-to-video with lip sync and character animation |
+| 🏭 **Industrial** | IoT sensors, protocol handlers, data pipelines |
+| 🖥️ **Software** | APIs, dashboards, domain engines, security modules |
+
+See [CAPABILITIES.md](CAPABILITIES.md) for full details and [PROOF.md](PROOF.md) for verification.
 
 ```
 "Build a battery monitoring engine with SoC calculation"
