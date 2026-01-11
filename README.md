@@ -1,8 +1,12 @@
 # EVE — Self-Evolving AI Development Platform
 
 <p align="center">
-  <img src="docs/eve-logo.png" alt="EVE Logo" width="200"/>
+  <img src="docs/eve-logo.svg" alt="EVE Logo" width="200"/>
 </p>
+
+> **Scope Notice:** This repository is a proof-of-platform demonstration.
+> It does not include the full EVE core, RAG datasets, or commercial domain logic.
+> For enterprise deployments, pilots, or partnerships, [contact the team](#contact).
 
 <p align="center">
   <strong>AI that builds AI. Code that writes code. Systems that evolve.</strong>
