@@ -1,0 +1,26 @@
+======================================================================
+EVE DETERMINISTIC CHARACTER v1 — PROOF HASHES
+======================================================================
+Generated: 2026-01-11T13:47:24.584538
+Version: deterministic-character-v1
+
+SHA256 Hashes:
+----------------------------------------------------------------------
+d4dbba7fffd965448e6916637296c4ef4177af1325f43a1153434252a55f5c95  core/V14/engines/tts/bark_tts_engine.py
+d3a3774de72db0bb0dda16445a739008d6f82a4d2f68f328a65bd7a5bc57a3f9  core/V14/engines/character/lipsync_engine.py
+792fcd62b243f4982a90acbefb516ab5af7b9bb483b2f282e90889d283a4da56  core/V14/engines/character/cse_engine.py
+78e9f6cd985783e3651aa2bf2673e1e9ffffa0cd050422d5148a5592d3203bd0  core/V14/engines/character/state_manager.py
+aa42c93b04a9425060e40020059904095f6ceecd7ecaea36acaff95ec48f2cad  core/V14/engines/character/motion_library.py
+e2ddf760ab13954e649023790522d96512fbc4dfe728b577ae0518cee7979e7a  core/V14/engines/character/motion_solver.py
+11a951c7c837e742c790ade8f89578e058c7fad86f69c84faf608d0068299f84  core/V14/engines/character/blender_bridge.py
+a632fe0100562b6a75b3cfd2b61ef182a2740d0a480723bd4d5ebc14d393c08b  core/V14/engines/video/video_pipeline.py
+992a5c026c2409cd3dae987e631e3587cfc0e3e31fe6e250e3a77b9424fead5f  core/V14/engines/video/ffmpeg_engine.py
+a7e4424c1aaf036b36df10582e4c8e4bd738590e2e925c9b82205a5789245407  PROOF.md
+----------------------------------------------------------------------
+
+COMBINED HASH: ce84c23a4af36c48ac3403ff5bec8e1b620f3b1af3f98ddf698720da06b045c2
+
+======================================================================
+This hash can be used to verify the exact state of the codebase
+at the time deterministic-character-v1 was tagged.
+======================================================================
