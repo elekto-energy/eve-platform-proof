@@ -1,0 +1,44 @@
+# Dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Secrets (NEVER commit)
+.env
+*.key
+*_key
+.anthropic_key
+secrets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data (not for public repo)
+vector_db/
+autolearn_v14/
+knowledge_base/
