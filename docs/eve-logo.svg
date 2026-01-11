@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <!-- Gradient för huvudcirkel -->
+    <linearGradient id="mainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="50%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    
+    <!-- Glow effekt -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Inner shadow -->
+    <filter id="innerGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  
+  <!-- Bakgrund (transparent) -->
+  
+  <!-- Yttre ring med gradient -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="url(#mainGrad)" stroke-width="8" opacity="0.3"/>
+  
+  <!-- Mellanring -->
+  <circle cx="200" cy="200" r="150" fill="none" stroke="url(#mainGrad)" stroke-width="4" opacity="0.5"/>
+  
+  <!-- Huvudcirkel -->
+  <circle cx="200" cy="200" r="120" fill="url(#mainGrad)" filter="url(#glow)"/>
+  
+  <!-- EVE text -->
+  <text x="200" y="195" 
+        font-family="Arial, Helvetica, sans-serif" 
+        font-size="72" 
+        font-weight="bold" 
+        fill="white" 
+        text-anchor="middle" 
+        dominant-baseline="middle"
+        letter-spacing="8">EVE</text>
+  
+  <!-- Tagline -->
+  <text x="200" y="240" 
+        font-family="Arial, Helvetica, sans-serif" 
+        font-size="14" 
+        fill="white" 
+        text-anchor="middle" 
+        opacity="0.9"
+        letter-spacing="4">SELF-EVOLVING AI</text>
+  
+  <!-- Orbiterande prickar (representerar evolution/cykler) -->
+  <circle cx="200" cy="32" r="8" fill="#06b6d4" filter="url(#glow)"/>
+  <circle cx="345" cy="130" r="6" fill="#8b5cf6" opacity="0.8"/>
+  <circle cx="368" cy="200" r="8" fill="#6366f1" filter="url(#glow)"/>
+  <circle cx="345" cy="270" r="6" fill="#06b6d4" opacity="0.8"/>
+  <circle cx="200" cy="368" r="8" fill="#8b5cf6" filter="url(#glow)"/>
+  <circle cx="55" cy="270" r="6" fill="#6366f1" opacity="0.8"/>
+  <circle cx="32" cy="200" r="8" fill="#06b6d4" filter="url(#glow)"/>
+  <circle cx="55" cy="130" r="6" fill="#8b5cf6" opacity="0.8"/>
+  
+  <!-- Subtila linjer som kopplar prickarna (neural network känsla) -->
+  <line x1="200" y1="32" x2="345" y2="130" stroke="#06b6d4" stroke-width="1" opacity="0.2"/>
+  <line x1="345" y1="130" x2="368" y2="200" stroke="#8b5cf6" stroke-width="1" opacity="0.2"/>
+  <line x1="368" y1="200" x2="345" y2="270" stroke="#6366f1" stroke-width="1" opacity="0.2"/>
+  <line x1="345" y1="270" x2="200" y2="368" stroke="#06b6d4" stroke-width="1" opacity="0.2"/>
+  <line x1="200" y1="368" x2="55" y2="270" stroke="#8b5cf6" stroke-width="1" opacity="0.2"/>
+  <line x1="55" y1="270" x2="32" y2="200" stroke="#6366f1" stroke-width="1" opacity="0.2"/>
+  <line x1="32" y1="200" x2="55" y2="130" stroke="#06b6d4" stroke-width="1" opacity="0.2"/>
+  <line x1="55" y1="130" x2="200" y2="32" stroke="#8b5cf6" stroke-width="1" opacity="0.2"/>
+</svg>

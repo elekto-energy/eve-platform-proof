@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Hexagon bakgrund -->
+  <polygon points="200,20 340,90 340,230 200,300 60,230 60,90" 
+           fill="url(#grad1)" 
+           filter="url(#glow2)"/>
+  
+  <!-- Inner hexagon -->
+  <polygon points="200,50 310,105 310,215 200,270 90,215 90,105" 
+           fill="none" 
+           stroke="white" 
+           stroke-width="2" 
+           opacity="0.3"/>
+  
+  <!-- E -->
+  <path d="M120,120 L120,200 L170,200 L170,185 L140,185 L140,168 L165,168 L165,153 L140,153 L140,135 L170,135 L170,120 Z" 
+        fill="white"/>
+  
+  <!-- V -->
+  <path d="M175,120 L195,200 L215,200 L235,120 L215,120 L200,175 L185,120 Z" 
+        fill="white"/>
+  
+  <!-- E -->
+  <path d="M240,120 L240,200 L290,200 L290,185 L260,185 L260,168 L285,168 L285,153 L260,153 L260,135 L290,135 L290,120 Z" 
+        fill="white"/>
+  
+  <!-- Tagline -->
+  <text x="200" y="340" 
+        font-family="Arial, sans-serif" 
+        font-size="18" 
+        fill="url(#grad1)" 
+        text-anchor="middle"
+        font-weight="600"
+        letter-spacing="6">SELF-EVOLVING AI</text>
+  
+  <!-- Tre prickar (representerar 3-tier routing) -->
+  <circle cx="160" cy="370" r="6" fill="#6366f1"/>
+  <circle cx="200" cy="370" r="6" fill="#8b5cf6"/>
+  <circle cx="240" cy="370" r="6" fill="#06b6d4"/>
+</svg>
