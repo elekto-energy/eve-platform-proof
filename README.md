@@ -8,6 +8,9 @@
 > It does not include the full EVE core, RAG datasets, or commercial domain logic.
 > For enterprise deployments, pilots, or partnerships, [contact the team](#contact).
 
+> **Design Philosophy:** EVE is deterministic by default, using templates and policy-based routing.
+> AI models are only used when they add measurable value.
+
 <p align="center">
   <strong>AI that builds AI. Code that writes code. Systems that evolve.</strong>
 </p>
